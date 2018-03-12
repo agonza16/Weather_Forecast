@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forecast", "Forecast\Forecast.csproj", "{0B017874-C02A-4D20-8C2F-92A6D4531533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeCastWebApp", "ForeCastWebApp\ForeCastWebApp.csproj", "{B7B5B7DD-86AB-45DD-BCF9-35E9BB5D351F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B017874-C02A-4D20-8C2F-92A6D4531533} = {0B017874-C02A-4D20-8C2F-92A6D4531533}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B017874-C02A-4D20-8C2F-92A6D4531533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B017874-C02A-4D20-8C2F-92A6D4531533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B017874-C02A-4D20-8C2F-92A6D4531533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B017874-C02A-4D20-8C2F-92A6D4531533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B5B7DD-86AB-45DD-BCF9-35E9BB5D351F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B5B7DD-86AB-45DD-BCF9-35E9BB5D351F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B5B7DD-86AB-45DD-BCF9-35E9BB5D351F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B5B7DD-86AB-45DD-BCF9-35E9BB5D351F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
